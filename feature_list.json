@@ -1,0 +1,58 @@
+{
+  "project": "roblox-ai-copilot",
+  "version": "0.1.0",
+  "target": "Roblox Studio Plugin (.rbxm)",
+  "repository": "https://github.com/pacjung64-cmyk/roblox-ai-copilot",
+  "release": "https://github.com/pacjung64-cmyk/roblox-ai-copilot/releases/tag/v0.1.0",
+  "features": [
+    {
+      "name": "AIClient & Provider Router",
+      "file": "src/Core/AIClient.luau",
+      "status": "completed",
+      "tested": true,
+      "providers": ["Gemini", "Groq", "DeepSeek", "Ollama"]
+    },
+    {
+      "name": "Prompt Templates & Few-Shot Luau Patterns",
+      "file": "src/Core/PromptTemplates.luau",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Settings & Persistence Manager",
+      "file": "src/Core/SettingsManager.luau",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Natural Language to Luau Script Generator",
+      "file": "src/Features/ScriptGenerator.luau",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Text-to-World Procedural Scene Builder",
+      "file": "src/Features/SceneBuilder.luau",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Exploit & Code Security Auditor",
+      "file": "src/Features/SecurityAuditor.luau",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Responsive Dark/Light Theme Studio Dockable UI",
+      "file": "src/UI/PluginWidget.luau",
+      "status": "completed",
+      "tested": true
+    },
+    {
+      "name": "Rojo Build Pipeline & Distribution",
+      "file": "default.project.json",
+      "status": "completed",
+      "tested": true
+    }
+  ]
+}
